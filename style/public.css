@@ -1,0 +1,140 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+
+	
+		
+/*top部分开始*/
+			#top{
+				width: 940px;
+				height: 143px;
+				margin: 0 auto;
+			}
+				#logo{
+					width: 450px;
+					/*height: 143px;*/
+					margin-top: 25px;
+					margin-left: -29px;
+					float: left;
+				}
+				#nav{
+					width: 490px;
+					height: 143px;					
+					float: left;					
+				}
+				#nav ul{
+					float: right;
+					line-height: 143px;
+				}
+				#nav li{
+					float: left;
+					list-style: none;
+					
+					margin-left: 22px;
+					font-size: 14px;
+					font-family: verdana;
+				}
+				#nav a{
+					text-decoration: none;
+					color: #fff;
+				}
+				#nav .highlight,#nav ul li a:hover{
+					color: #cb2800;
+
+				}
+
+/*top部分结束*/
+/*main里public样式开始*/
+	#main{
+			background-image: url(../images/main-bg_03.jpg);	
+			
+
+		}
+		#main-inner{
+			overflow: hidden;
+			width: 940px;
+			margin: 0 auto;
+			padding-top: 40px;
+		}
+
+/*main-top部分开始*/
+
+	#main-top{
+		overflow: hidden;
+	}
+		
+				#pic1{					
+					float: left;
+				}
+				#pic2{
+					margin: 0 20px;
+					float: left;
+				}
+				#pic3{
+										
+					float: left;
+				}
+
+/*main-top部分结束*/
+	#content{
+		width: 620px;			
+		clear: both;
+		float: left;
+		}
+	.more{  /*more按钮样式*/
+		display: block;
+		width: 106px;
+		height: 41px;
+		border-radius: 9px;
+		background-image: -webkit-linear-gradient(#ea8100,#cc2800);
+		background-image: linear-gradient(#ea8100,#cc2800);
+		/*background-image: url(../images/more-icon-bg_99.gif);*/
+		text-decoration: none;
+		color: #fff;
+		font-size: 25px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		line-height: 41px;
+		margin-top: 25px;					
+	}
+/*main里public样式结束*/
+/*footer部分开始*/
+
+#footer{
+			clear: both;
+			height: 124px;
+			background-image: url(../images/footer-bg_162.jpg);
+		}
+		#footer-inner{
+			width: 940px;
+			margin: 0 auto;
+		}
+			#copyright{
+				font-family: verdana;
+				width: 642px;
+				height: 124px;
+				line-height: 25px;
+				text-align: center;
+				float: left;
+				color: #7f7f7f;
+			}
+			#copyright .p1{
+				margin-top: 30px;
+			}
+			#copyright a{
+				color: #cb2800;
+			}
+			#sitemap{
+				width: 298px;
+				height: 124px;
+				
+				float: left;
+			}
+			#sitemap a{
+				float: left;
+				margin-right: 10px;
+				line-height: 124px;
+			}
+
+/*footer部分结束	*/	

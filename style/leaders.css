@@ -1,0 +1,115 @@
+
+	
+		#header-inner{			
+			background-image: url(../images/leaders-top_02.jpg);
+		}
+
+				#content1{
+					width: 620px;					
+					border-bottom: 1px dotted #3c3d3d;
+					padding-bottom: 30px;
+				}					
+				#content h3{
+					font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+					font-size: 30px;
+					color: #fff;
+					margin: 48px 0 18px 0;
+				}
+			
+				#main-inner p{
+					color: #7f7f7f;
+					font-size: 14px;
+					line-height: 1.5em;
+					font-family: Verdana, Geneva, sans-serif;
+				}
+				.txt span{
+					color: #fff;
+				}
+				
+				.txt img{
+					margin: 0 10px 10px 0;
+					float: left;
+				}
+			#content2{
+				padding-bottom: 30px;
+			}
+				#content2 ul{
+					float: left;
+				}
+				#content2 ul li{
+					list-style: none;
+					border-bottom: 1px dotted #3c3d3d;
+					padding-bottom: 2px;
+					text-indent: 9px;				
+				}
+				#content2 ul li a{
+					text-decoration: none;
+					font-size: 14px;
+					color: #fff;
+					font-style: italic;
+					line-height: 2em;
+					font-family: Verdana, Geneva, sans-serif;
+				}
+				#content2 .txt{
+					margin-top: 25px;
+				}
+				#content2-mid{
+					overflow: hidden;
+					/*height: 170px;*/
+				}
+			#sidebar{
+				float: right;
+			}
+				#sidebar-top{
+					width: 300px;
+					/*height: 676px;*/						
+					font-family: verdana;
+				}
+					#sidebar ul{
+						margin-top: 30px;
+						margin-left: 20px;
+					}
+					#sidebar li{
+						list-style: none;
+						line-height: 2em;						
+						border-bottom: 1px dotted #3c3d3d;
+						padding-bottom: 2px;
+						background-image: url(../images/list-icon_03.png);
+						background-repeat: no-repeat;
+						background-position: 0 center;
+						text-indent: 9px;
+						font-style: italic;
+						color: #fff;
+					}
+					#sidebar h3{
+						text-indent: 20px;
+						line-height: 50px;
+						font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;;
+						margin-top: 40px;
+						width: 300px;
+						height: 48px;						
+						background-color: #101111;
+						border-bottom-left-radius: 5px; 
+						border-bottom-right-radius: 5px;
+						border-top-left-radius: 5px; 
+						border-top-right-radius: 5px; 
+						color: #fff;
+					}
+					#main-inner #sidebar p{
+						margin-left: 20px;
+						margin-top: 30px;
+
+					}
+					#sidebar-top ul li a{
+						text-decoration: none;
+						font-size: 14px;
+						color: #fff;
+					}									
+					#main .border-last{
+						border-bottom: none;
+					}
+				#sidebar-btm{
+					width: 300px;
+					margin-top: 40px;
+					padding-bottom: 40px;
+				}	
